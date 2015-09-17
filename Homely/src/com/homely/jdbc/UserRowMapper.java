@@ -5,7 +5,7 @@ import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
 
-import com.spring.model.Hello;
+import com.homely.model.Hello;
 
 public class UserRowMapper implements RowMapper<Hello> {
 	@Override

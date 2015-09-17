@@ -2,9 +2,9 @@ package com.homely.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.spring.api.LoginDAO;
-import com.spring.api.LoginService;
-import com.spring.model.Hello;
+import com.homely.api.LoginDAO;
+import com.homely.api.LoginService;
+import com.homely.model.Hello;
 
 public class LoginServiceImpl implements LoginService {
 @Autowired

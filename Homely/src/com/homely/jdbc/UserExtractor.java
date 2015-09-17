@@ -5,7 +5,7 @@ import java.sql.SQLException;
 
 import org.springframework.jdbc.core.ResultSetExtractor;
 
-import com.spring.model.Hello;
+import com.homely.model.Hello;
 
 public class UserExtractor implements ResultSetExtractor<Hello> {
 	public Hello extractData(ResultSet rs) throws SQLException

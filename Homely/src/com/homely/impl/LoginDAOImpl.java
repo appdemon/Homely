@@ -5,9 +5,9 @@ import javax.sql.DataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-import com.spring.api.LoginDAO;
-import com.spring.jdbc.UserRowMapper;
-import com.spring.model.Hello;
+import com.homely.api.LoginDAO;
+import com.homely.jdbc.UserRowMapper;
+import com.homely.model.Hello;
 
 public class LoginDAOImpl implements LoginDAO{
 @Autowired
