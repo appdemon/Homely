@@ -7,7 +7,7 @@
 	http://www.springframework.org/schema/context/spring-context.xsd">
  
  	
-<context:component-scan base-package="com.spring.controller"/>
+<context:component-scan base-package="com.homely.controller"/>
  
     <bean id="viewResolver"
     	class="org.springframework.web.servlet.view.InternalResourceViewResolver" >
@@ -18,8 +18,8 @@
             <value>.jsp</value>
         </property>
     </bean>
-    <bean id="loginService" class="com.spring.impl.LoginServiceImpl"/>
-    <bean id="loginDao" class="com.spring.impl.LoginDAOImpl"/>
+    <bean id="loginService" class="com.homely.impl.LoginServiceImpl"/>
+    <bean id="loginDao" class="com.homely.impl.LoginDAOImpl"/>
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
     <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
     <property name="url" value="jdbc:mysql://localhost:3306/localdb"/>
